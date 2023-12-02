@@ -29,7 +29,7 @@ const Navbar = () => {
                     height={24}
                 />
             </div>
-            <div className={styles.logo}>Carbon</div>
+            <div className={styles.logo}><Link href="/">Carbon</Link></div>
             <div className={styles.links}>
                 <ThemeToggle />
                 <Link href="/" className={styles.link}>

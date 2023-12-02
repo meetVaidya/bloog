@@ -22,7 +22,8 @@ const MenuPosts = ({ withImage }) => {
                         Travel
                     </span>
                     <h3 className={styles.postTitle}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Wanderlust Chronicles: Embarking on Epic Journeys,
+                        Unveiling Hidden Gems, and Embracing the Art of Travel
                     </h3>
                     <div className={styles.details}>
                         <span className={styles.username}>John Doe</span>
@@ -46,11 +47,12 @@ const MenuPosts = ({ withImage }) => {
                         Culture
                     </span>
                     <h3 className={styles.postTitle}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cultural Canvas: Unveiling the Rich Tapestry of
+                        Traditions, Art, and Stories from Around the World
                     </h3>
                     <div className={styles.details}>
-                        <span className={styles.username}>John Doe</span>
-                        <span className={styles.date}> - 26.11.2023</span>
+                        <span className={styles.username}>Audie Britten</span>
+                        <span className={styles.date}> - 2023-08-10</span>
                     </div>
                 </div>
             </Link>
@@ -70,11 +72,12 @@ const MenuPosts = ({ withImage }) => {
                         Food
                     </span>
                     <h3 className={styles.postTitle}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Savor Spectrum: Culinary Adventures from Around the
+                        Globe
                     </h3>
                     <div className={styles.details}>
-                        <span className={styles.username}>John Doe</span>
-                        <span className={styles.date}> - 26.11.2023</span>
+                        <span className={styles.username}>Illa Hermosillo</span>
+                        <span className={styles.date}> - 2023-06-22</span>
                     </div>
                 </div>
             </Link>
@@ -94,11 +97,12 @@ const MenuPosts = ({ withImage }) => {
                         Coding
                     </span>
                     <h3 className={styles.postTitle}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        CodeCraft: Navigating the Digital Realm with Creative
+                        Programming
                     </h3>
                     <div className={styles.details}>
-                        <span className={styles.username}>John Doe</span>
-                        <span className={styles.date}> - 26.11.2023</span>
+                        <span className={styles.username}>Chong Batlis</span>
+                        <span className={styles.date}> - 2023-12-13</span>
                     </div>
                 </div>
             </Link>

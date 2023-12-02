@@ -9,12 +9,12 @@ const Footer = () => {
             <div className={styles.info}>
                 <div className={styles.logo}>
                     <Image
-                        src="/logo.png"
-                        alt="lama blog"
+                        src="/codesandbox-logo.svg"
+                        alt="Carbon Logo"
                         width={50}
                         height={50}
                     />
-                    <h1 className={styles.logoText}>Lamablog</h1>
+                    <h1 className={styles.logoText}>Carbon</h1>
                 </div>
                 <p className={styles.desc}>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -26,24 +26,26 @@ const Footer = () => {
             <div className={styles.links}>
                 <div className={styles.list}>
                     <span className={styles.listTitle}>Links</span>
-                    <Link href="/">Homepage</Link>
-                    <Link href="/">Blog</Link>
-                    <Link href="/">About</Link>
-                    <Link href="/">Contact</Link>
+                    <Link href="/homePage">Homepage</Link>
+                    <Link href="/homePage">Blog</Link>
+                    <Link href="/about">About</Link>
+                    <Link href="mailto:meet.djsce@gmail.com?subject=Hello&body=I%20hope%20this%20email%20finds%20you%20well.">
+                        Contact
+                    </Link>
                 </div>
                 <div className={styles.list}>
                     <span className={styles.listTitle}>Tags</span>
-                    <Link href="/">Style</Link>
-                    <Link href="/">Fashion</Link>
-                    <Link href="/">Coding</Link>
-                    <Link href="/">Travel</Link>
+                    <Link href="/homePage">Style</Link>
+                    <Link href="/homePage">Fashion</Link>
+                    <Link href="/homePage">Coding</Link>
+                    <Link href="/homePage">Travel</Link>
                 </div>
                 <div className={styles.list}>
                     <span className={styles.listTitle}>Social</span>
-                    <Link href="/">Facebook</Link>
-                    <Link href="/">Instagram</Link>
-                    <Link href="/">Tiktok</Link>
-                    <Link href="/">Youtube</Link>
+                    <Link href="/homePage">Facebook</Link>
+                    <Link href="/homePage">Instagram</Link>
+                    <Link href="/homePage">Tiktok</Link>
+                    <Link href="/homePage">Youtube</Link>
                 </div>
             </div>
         </div>

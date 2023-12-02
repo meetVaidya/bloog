@@ -15,9 +15,7 @@ const Card = () => {
                     <span className={styles.category}>CULTURE</span>
                 </div>
                 <Link href="/">
-                    <h1>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </h1>
+                    <h1>Embracing Authenticity: A Guide to Personal Style</h1>
                 </Link>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -25,7 +23,9 @@ const Card = () => {
                     voluptas beatae tenetur obcaecati ipsa, magnam ipsum ut
                     illum
                 </p>
-                <Link href="/" id={styles.readIt}>Read More</Link>
+                <Link href="/" id={styles.readIt}>
+                    Read More
+                </Link>
             </div>
         </div>
     );
