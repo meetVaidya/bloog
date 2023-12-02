@@ -6,7 +6,7 @@ const Featured = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>
-                <b>Stories, Creative Ideas?</b> <br /> You found the right place
+                <b>Featured Post</b>
             </h1>
             <div className={styles.post}>
                 <div className={styles.imgContainer}>
@@ -19,15 +19,19 @@ const Featured = () => {
                 </div>
                 <div className={styles.textContainer}>
                     <h1 className="styles.postTitle">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit.
+                        Cultivating Unity: Exploring the Rich Tapestry of Global
+                        Culture
                     </h1>
                     <p className={styles.postDescription}>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Quasi voluptatibus magni aperiam veritatis?
-                        Consectetur officia eius rerum tenetur labore. Eaque
-                        deleniti repellendus enim maxime odit delectus eius
-                        aspernatur saepe voluptates!
+                        In a world that is increasingly interconnected, the
+                        celebration and understanding of diverse cultures have
+                        become more important than ever. Culture, the invisible
+                        thread that weaves through the fabric of humanity,
+                        encompasses a myriad of customs, traditions, and
+                        expressions that define who we are. Join us on a journey
+                        as we delve into the heart of global culture, exploring
+                        the rich tapestry that makes our world a vibrant and
+                        harmonious mosaic.
                     </p>
                     <button className={styles.button}>Read More</button>
                 </div>
