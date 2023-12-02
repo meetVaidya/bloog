@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './LandingPage.module.css';
+import styles from './landingPage.module.css';
 // import { Button } from '@nextui-org/button';
 
 const LandingPage = () => {
