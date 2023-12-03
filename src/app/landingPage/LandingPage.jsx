@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './landingPage.module.css';
+import ThemeToggle from '@/components/themeToggle/ThemeToggle';
 // import { Button } from '@nextui-org/button';
 
 const LandingPage = () => {
@@ -25,6 +26,7 @@ const LandingPage = () => {
                     <Link href="/homePage">Carbon</Link>
                 </div>
                 <div className={styles.links}>
+                    <ThemeToggle />
                     <Link
                         href="#"
                         className={styles.link}
