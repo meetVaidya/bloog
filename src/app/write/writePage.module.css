@@ -1,0 +1,36 @@
+.container {
+}
+
+.editor {
+    display: flex;
+    gap: 20px;
+    height: 700px;
+}
+
+.textArea {
+    width: 100%;
+}
+
+.input {
+    padding: 50px;
+    font-size: 64px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.input::placeholder {
+    color: #b3b3b1;
+}
+
+.publish {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1a8917;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+}
