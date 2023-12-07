@@ -12,16 +12,22 @@ const Card = () => {
                 <div className={styles.details}>
                     <span className={styles.date}>26.11.2023</span>
                     <span> - </span>
-                    <span className={styles.category}>CULTURE</span>
+                    <span className={styles.category}>CODING</span>
                 </div>
                 <Link href="/">
-                    <h1>Embracing Authenticity: A Guide to Personal Style</h1>
+                    <h1>
+                        Coding Alchemy: Deciphering the Magic of Programming
+                    </h1>
                 </Link>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Suscipit veniam accusantium temporibus ad cum, itaque nobis
-                    voluptas beatae tenetur obcaecati ipsa, magnam ipsum ut
-                    illum
+                    In the realm of ones and zeros lies the art of coding—a
+                    language that empowers us to create, innovate, and bring
+                    ideas to life. In this blog, we&apos;ll demystify the world
+                    of programming, explore the beauty of elegant code, and
+                    discuss the role of coding in shaping the digital landscape.
+                    Whether you&apos;re a seasoned developer or a coding
+                    enthusiast, join us on a journey through the lines of code
+                    that power our interconnected world.
                 </p>
                 <Link href="/" id={styles.readIt}>
                     Read More

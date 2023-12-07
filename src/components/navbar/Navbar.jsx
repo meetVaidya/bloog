@@ -29,16 +29,18 @@ const Navbar = () => {
                     height={24}
                 />
             </div>
-            <div className={styles.logo}><Link href="/">Carbon</Link></div>
+            <div className={styles.logo}>
+                <Link href="/">Carbon</Link>
+            </div>
             <div className={styles.links}>
                 <ThemeToggle />
-                <Link href="/" className={styles.link}>
+                <Link href="/homePage" className={styles.link}>
                     Homepage
                 </Link>
-                <Link href="/" className={styles.link}>
+                <Link href="mailto:meet.djsce@gmail.com?subject=Hello&body=I%20hope%20this%20email%20finds%20you%20well.">
                     Contact
                 </Link>
-                <Link href="/" className={styles.link}>
+                <Link href="/about1" className={styles.link}>
                     About
                 </Link>
                 <AuthLinks />

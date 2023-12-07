@@ -1,4 +1,5 @@
 .container {
+    font-family: 'HarmonyOS Sans';
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -1,11 +1,27 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './landingPage.module.css';
 import ThemeToggle from '@/components/themeToggle/ThemeToggle';
+import { useEffect } from 'react';
+import Footer from '@/components/footer/Footer';
 // import { Button } from '@nextui-org/button';
 
 const LandingPage = () => {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src =
+            'https://unpkg.com/@splinetool/viewer@0.9.516/build/spline-viewer.js';
+        document.body.appendChild(script);
+
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, []);
+
     return (
         <>
             <meta charSet="UTF-8" />
@@ -28,13 +44,13 @@ const LandingPage = () => {
                 <div className={styles.links}>
                     <ThemeToggle />
                     <Link
-                        href="#"
+                        href="mailto:meet.djsce@gmail.com?subject=Hello&body=I%20hope%20this%20email%20finds%20you%20well."
                         className={styles.link}
                         style={{ marginRight: 5 }}
                     >
                         Contact
                     </Link>
-                    <Link href="#" className={styles.link}>
+                    <Link href="/about" className={styles.link}>
                         About
                     </Link>
                     <div className={`${styles.minButton} ${styles.login}`}>
@@ -65,6 +81,23 @@ const LandingPage = () => {
                     Step in the new age of blogging
                 </span>
             </div>
+            <div className={styles.downContainer}>
+                <spline-viewer
+                    className={styles.spline}
+                    loading-anim-type="none"
+                    url="https://prod.spline.design/49KhbD77j7zw6Isn/scene.splinecode"
+                ></spline-viewer>
+                <p>
+                    Unleash your passion, share your stories, and connect with a
+                    community that craves the unique perspective only you can
+                    provide. Embrace the endless possibilities that await in
+                    this digital frontier, where innovation and expression
+                    intertwine. Join us on a journey where the traditional meets
+                    the extraordinary, and your words become the bridge between
+                    inspiration and transformation.
+                </p>
+            </div>
+            <Footer />
         </>
     );
 };

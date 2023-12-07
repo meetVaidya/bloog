@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'HarmonyOS Sans';
+    src: url('/public/font/HarmonyOS_Sans_Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --bg: white;
     --textColor: black;

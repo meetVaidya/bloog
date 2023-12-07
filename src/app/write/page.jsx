@@ -2,8 +2,8 @@
 
 import React from 'react';
 import styles from './writePage.module.css';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+// import ReactQuill from 'react-quill';
+// import 'react-quill/dist/quill.snow.css';
 import Navbar from '@/components/navbar/Navbar';
 import Footer from '@/components/footer/Footer';
 
@@ -14,13 +14,13 @@ const WritePage = () => {
             <Navbar />
             <input type="text" placeholder="Title" className={styles.input} />
             <div className={styles.editor}>
-                <ReactQuill
+                {/* <ReactQuill
                     className={styles.textArea}
                     theme="bubble"
                     value={value}
                     onChange={setValue}
                     placeholder="Tell your story"
-                />
+                /> */}
             </div>
             <button className={styles.publish}>Publish</button>
             <Footer />

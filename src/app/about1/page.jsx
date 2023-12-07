@@ -1,6 +1,6 @@
 import Navbar from '@/components/navbar/Navbar';
 import React from 'react';
-import styles from './aboutPage.module.css';
+import styles from './aboutPage1.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import ThemeToggle from '@/components/themeToggle/ThemeToggle';
@@ -8,38 +8,7 @@ import ThemeToggle from '@/components/themeToggle/ThemeToggle';
 const AboutUs = () => {
     return (
         <div>
-            <title>Carbon</title>
-            <link rel="icon" href="public/codesandbox-logo.svg" />
-            <div className={styles.container}>
-                <div className={styles.logo}>
-                    <Image
-                        src="codesandbox-logo.svg"
-                        alt=""
-                        width={30}
-                        height={30}
-                    />
-                    <Link href="/">Carbon</Link>
-                </div>
-                <div className={styles.links}>
-                    <ThemeToggle />
-                    <Link
-                        href="mailto:meet.djsce@gmail.com?subject=Hello&body=I%20hope%20this%20email%20finds%20you%20well."
-                        className={styles.link}
-                        style={{ marginRight: 5 }}
-                    >
-                        Contact
-                    </Link>
-                    <Link href="/about" className={styles.link}>
-                        About
-                    </Link>
-                    <div className={`${styles.minButton} ${styles.login}`}>
-                        <Link href="/homePage">Login</Link>
-                    </div>
-                    <div className={`${styles.minButton} ${styles.register}`}>
-                        <Link href="/login">Register</Link>
-                    </div>
-                </div>
-            </div>
+            <Navbar />
             <h1 className={styles.header}>About Us</h1>
             <h2 id="our-story">Our Story</h2>
             <p>
